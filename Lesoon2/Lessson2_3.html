@@ -15,9 +15,19 @@
             height: 200px;
             
         }
-        .red p{
+        .red{
             background-color: red;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .red p{
+
+        }
+        .red img{
+            width: 50%;
+
         }
         .yellow{
             background-color: yellow;
@@ -39,7 +49,10 @@
 </head>
 <body>
 <div class="flex">
-    <div class="box red"></div>
+    <div class="box red">
+        <p>Lorem ipsum dolo</p>
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS0gcqmR2Hh-xRIjY7dtMegdlNurNQpR1rCvZzQ13NhBzWJkqM-Lke98Eq4FrQO7TM3ilwJDKhYOxwVOYN4vbOanDBe7Vxqb_mwcldve6adMq93qm8JNKDH" alt="apple">
+    </div>
     <div class="box yellow"></div>
     <div class="box green"></div>
 </div>
