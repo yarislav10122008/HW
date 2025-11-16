@@ -1,0 +1,13 @@
+div{
+    width: 10vw;
+    height: 10vh;
+    background: #c60000;
+}
+p{
+    text-align: center;
+    font-size: 1em; /* 1em=16px*/
+    /*font-size: 1rem; rem вказуєтся в html*/
+}
+/*html{*/
+/*    font-size: 56px;*/
+/*}*/
