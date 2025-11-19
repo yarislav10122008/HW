@@ -1,0 +1,10 @@
+video{
+    width: 50vw;
+    height: 50vw;
+}
+iframe{
+    width: 50vw;
+    height: 50vw;
+    border: 10px solid black;
+}
+
