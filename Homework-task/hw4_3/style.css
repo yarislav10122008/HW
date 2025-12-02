@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 5vh;
+    background: #D9D9D9;
+}
+main{
+    display: flex;
+    height: 75vh;
+}
+.wrapper1{
+    height: 100%;
+    width: 60vw;
+    background: #A4A4A4;
+}
+.one {
+    width: 40vw;
+    height: 40vh;
+    background: #7F7A7A;
+}
+.two{
+    width: 40vw;
+    height: 35vh;
+    background: #615050;
+}
+footer{
+    height: 20vh;
+}
+.top{
+    height: 10vh;
+    background: #D9D9D9;
+}
+.bot{
+    height: 10vh;
+    background: #AFA9A9;
+}
