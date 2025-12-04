@@ -1,0 +1,15 @@
+.pink_box{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin: 100px auto 0 auto;
+}
+@keyframes lorem{
+ from{
+
+    }
+
+    to{
+
+    }
+}
