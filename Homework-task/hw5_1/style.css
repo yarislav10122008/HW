@@ -1,0 +1,26 @@
+.animation{
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    border-right:100px solid blue;
+    border-bottom:100px solid black;
+    border-top:100px solid #6cae00;
+    border-left:100px solid #ff0000;
+    animation: animate 6s linear infinite alternate;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes animate{
+    from{
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(-90deg);
+    }
+}

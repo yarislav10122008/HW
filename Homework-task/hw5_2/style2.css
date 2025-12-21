@@ -1,0 +1,21 @@
+.wrapper{
+  width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 100px;
+}
+.plane{
+    animation: animate 3s ease-in-out infinite alternate;
+}
+@keyframes animate {
+    from{
+        transform: translate(0,0);
+    }
+
+    to{
+        transform: translate(20vw,80vh);
+    }
+}
