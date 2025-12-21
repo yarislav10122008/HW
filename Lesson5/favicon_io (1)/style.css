@@ -3,13 +3,18 @@
     height: 200px;
     background: pink;
     margin: 100px auto 0 auto;
+    animation: lorem 5s linear infinite alternate;
 }
 @keyframes lorem{
  from{
-
+     transform: scale(1.5) rotate(60deg);
     }
-
+    40%{
+        border-radius:20%;
+        transform:rotate(-60deg) ;
+    }
     to{
-
+        transform: scale(1) rotate(60deg);
+        background-color: #6cae00;
     }
 }
